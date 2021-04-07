@@ -1,4 +1,4 @@
-const zip = document.querySelector('.zipInput')
+const zip = document.querySelector('.zipInput').value
 const zipSubmit = document.querySelector('.zipSubmit')
 const weather = document.querySelector('.weather')
 const weatherCity = document.createElement('p')

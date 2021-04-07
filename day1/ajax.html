@@ -42,6 +42,7 @@ const getPokemonDataWithAsyncAwait = async ()=> {
     const data = await fetch("https://pokeapi.co/api/v2/pokemon/6")
     // convert to json
     const formattedJson = await data.json()
+    console.log(formattedJson)
 
     let name = document.createElement("h1")
     name.innerHTML = formattedJson.name
